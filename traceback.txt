@@ -1,0 +1,30 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 24, in script
+    scene bg old_diary
+Exception: Image 'bg' does not accept attributes 'old_diary'.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 24, in script
+    scene bg old_diary
+  File "renpy/ast.py", line 1323, in execute
+    show_imspec(self.imspec, atl=getattr(self, "atl", None))
+  File "renpy/ast.py", line 1162, in show_imspec
+    atl=atl)
+  File "renpy/exports.py", line 744, in show
+    if not base.find_target() and renpy.config.missing_show:
+  File "renpy/display/image.py", line 409, in find_target
+    self.target = target._duplicate(a)
+  File "renpy/display/core.py", line 390, in _duplicate
+    args.extraneous()
+  File "renpy/display/core.py", line 271, in extraneous
+    " ".join(self.args),
+Exception: Image 'bg' does not accept attributes 'old_diary'.
+
+Windows-10-10.0.19041
+Ren'Py 7.4.8.1895
+TimeyWimey 1.0
+Wed Nov 10 14:53:33 2021
