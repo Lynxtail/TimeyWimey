@@ -17,7 +17,6 @@ init python:
 ## Конфигурируемые Переменные GUI
 ################################################################################
 
-
 ## Цвета #######################################################################
 ##
 ## Цвета текста в интерфейсе.
@@ -56,19 +55,19 @@ define gui.interface_text_color = u'#ffffff'
 ## Шрифты и их размеры #########################################################
 
 ## Шрифт, используемый внутриигровым текстом.
-define gui.text_font = "DejaVuSans.ttf"
+define gui.text_font = "Caveat-VariableFont_wght.ttf"
 
 ## Шрифт, используемый именами персонажей.
-define gui.name_text_font = "DejaVuSans.ttf"
+define gui.name_text_font = "Caveat-VariableFont_wght.ttf"
 
 ## Шрифт, используемый текстом вне игры.
 define gui.interface_text_font = "DejaVuSans.ttf"
 
 ## Размер нормального текста диалога.
-define gui.text_size = 22
+define gui.text_size = 30
 
 ## Размер имён персонажей.
-define gui.name_text_size = 30
+define gui.name_text_size = 36
 
 ## Размер текста в пользовательском интерфейсе.
 define gui.interface_text_size = 22
@@ -86,8 +85,8 @@ define gui.title_text_size = 50
 ## Главное и игровое меню. #####################################################
 
 ## Изображения, используемые в главном и игровом меню.
-define gui.main_menu_background = "gui/main_menu.png"
-define gui.game_menu_background = "gui/game_menu.png"
+define gui.main_menu_background = "gui/cochem-castle.jpg"
+define gui.game_menu_background = "gui/caucasus.jpg"
 
 
 ## Диалог ######################################################################
@@ -373,7 +372,7 @@ define gui.nvl_list_length = 6
 
 ## Высота доступных строчек в режиме NVL. Установите на None, чтобы строчки
 ## динамически регулировали свою высоту.
-define gui.nvl_height = 115
+define gui.nvl_height = None
 
 ## Интервал между строчками в режиме NVL, если gui.nvl_height имеет значение
 ## None, а также между строчками и меню режима NVL.
@@ -381,21 +380,21 @@ define gui.nvl_spacing = 10
 
 ## Местоположение, ширина и выравнивание заголовка, показывающего имя говорящего
 ## персонажа.
-define gui.nvl_name_xpos = 430
+define gui.nvl_name_xpos = 360
 define gui.nvl_name_ypos = 0
 define gui.nvl_name_width = 150
 define gui.nvl_name_xalign = 1.0
 
 ## Местоположение, ширина и выравнивание диалогового текста.
-define gui.nvl_text_xpos = 450
+define gui.nvl_text_xpos = 400
 define gui.nvl_text_ypos = 8
 define gui.nvl_text_width = 590
 define gui.nvl_text_xalign = 0.0
 
 ## Местоположение, ширина и выравнивание текста nvl_thought (текст от лица
 ## персонажа nvl_narrator).
-define gui.nvl_thought_xpos = 240
-define gui.nvl_thought_ypos = 0
+define gui.nvl_thought_xpos = 260
+define gui.nvl_thought_ypos = 20
 define gui.nvl_thought_width = 780
 define gui.nvl_thought_xalign = 0.0
 
