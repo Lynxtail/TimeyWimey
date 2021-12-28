@@ -24,6 +24,7 @@ label start:
         "Пропустить вступление": 
             jump the_very_start_nooptions
         "Начать вступление": 
+            scene bg old_diary with fade
             jump the_very_start
     
     return
@@ -31,7 +32,7 @@ label start:
 label the_very_start:
     nvl clear 
     hide screen nvl 
-    scene bg old_diary
+    scene bg korchma
     $ renpy.pause(None) 
     narrator "Это было давным-давно..."
     # with fade
