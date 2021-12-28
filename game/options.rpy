@@ -30,6 +30,35 @@ define config.version = "1.0"
 ## Для отделения абзацев оставляйте между ними пустую строку.
 
 define gui.about = _p("""
+Проект был разработан в рамках дисциплины Технологии Программирования.
+
+Использованная в проекте музыка:
+
+COFFIN DANCE MEDIEVAL VERSION [by ANNO DOMINI 1250/CORNELIUS LINK]
+
+FrancisLeeMusic — Fated Duel
+
+Telaron — The Road's End
+
+Tausdei — Varyag War Drum
+
+RandomMind — Medieval: The Old Tower Inn
+
+VWolfdog — Meloncholy Town
+
+RandomMind — Medieval: Market Day
+
+Yubatake — Winter Solstice
+
+Yubatake — Northern Isles
+
+el-corleo — Solemn War Music
+
+divjedrevo — Novoletie
+
+divjedrevo — Autumn
+
+Zander Noriega — Fight Them Until We Can't
 """)
 
 

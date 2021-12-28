@@ -2,9 +2,7 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 15: Line is indented, but the preceding define statement statement does not expect a block. Please check this line's indentation.
-    import json
-    ^
+File "game/script.rpy", line 530: indentation mismatch.
 
 Ren'Py Version: Ren'Py 7.4.8.1895
-Tue Nov 16 12:32:02 2021
+Mon Nov 29 23:44:57 2021
